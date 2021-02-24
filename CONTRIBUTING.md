@@ -9,4 +9,6 @@ Before you begin contributing:
 
 ### How to Contribute
 
-(tbc)
+Only change one specific thing, Pull Requests with with multiple unrelated issues will not be accepted.
+
+Exception with documentation, spelling errors, etc.
