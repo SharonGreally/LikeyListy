@@ -3,7 +3,7 @@
 We're so excited you're interested in helping with LikeyListy! We are happy to help you get started, even if you don't have any previous open-source experience :blush:
 
 ## New to Open Source?
-1. Take a look at [How to Contribute to an Open Source Project on GitHub](https://opensource.guide/how-to-contribute/#why-contribute-to-open-source)
+1. Take a look at [How to Contribute to an Open Source Project on GitHub](https://opensource.guide/how-to-contribute/#what-it-means-to-contribute )
 2. Go through the LikeyListy [Code of Conduct](CODE_OF_CONDUCT.md)
 
 ## Where to ask Questions?
