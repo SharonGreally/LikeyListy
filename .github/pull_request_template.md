@@ -2,19 +2,20 @@
 
 ## Before you submit
 
-> Before you submit a Pull Request, make sure:
->
-> - There's a corresponding issue in the Issue Tracker;
-> - The issue is greenlit for contribution (accepted tag);
-> - The issue isn't actively worked on (pending tag).
->
-> If you can't find an issue that covers your request, please create one and wait for acceptance.
+Before you submit a Pull Request, make sure:
+
+- There's a corresponding issue in the Issue Tracker;
+- The issue is greenlit for contribution (accepted tag);
+- The issue isn't actively worked on (pending tag).
+
+If you can't find an issue that covers your request, please create one and wait for acceptance.
 
 ### By submitting a Pull Request, you confirm that you have:
 
--[ ] Read and accepted the Contributor Guidelines;
--[ ] Read and acccepted the Code of Conduct;
--[ ] Read and accepted the License terms.
+- [ ] Read and accepted the Contributor Guidelines;
+- [ ] Read and acccepted the Code of Conduct;
+- [ ] Read and accepted the License terms.
+- [ ] Cleaned the project (`Build > Clean Project` in Android Studio)
 
 ---
 
@@ -22,12 +23,12 @@
 
 (Please tick appropriate)
 
--[ ] Bug Fix
--[ ] Feature
--[ ] Code style update (formatting, renaming)
--[ ] Refactoring
--[ ] Documentation update
--[ ] Documentation content update
+- [ ] Bug Fix
+- [ ] Feature
+- [ ] Code style update (formatting, renaming)
+- [ ] Refactoring
+- [ ] Documentation update
+- [ ] Documentation content update
 
 ### Link to Issue
 
