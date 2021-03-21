@@ -37,10 +37,12 @@ public class DatabaseHelper extends SQLiteOpenHelper {
     }
 
     public void createItem(String itemText) {
+        System.out.println("----------dbhelper " + itemText);
         if (itemText.trim().length() == 0) {
             return;
         }
 
+        db = this.getWritableDatabase();
         cv = new ContentValues();
         cv.put(DatabaseDetails.Item.COLUMN_ITEM_TEXT, itemText);
         cv.put(DatabaseDetails.Item.COLUMN_ITEM_STATUS, 0);

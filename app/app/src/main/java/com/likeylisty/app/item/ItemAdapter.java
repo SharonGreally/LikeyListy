@@ -18,7 +18,7 @@ import com.likeylisty.app.database.DatabaseHelper;
 public class ItemAdapter extends RecyclerView.Adapter<ItemAdapter.ItemViewHolder> {
     private Context context;
     private Cursor cursor;
-
+    
     public ItemAdapter(Context context, Cursor cursor) {
         this.context = context;
         this.cursor = cursor;

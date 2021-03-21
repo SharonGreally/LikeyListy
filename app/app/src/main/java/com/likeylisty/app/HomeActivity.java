@@ -21,16 +21,18 @@ import com.likeylisty.app.item.Item;
 public class HomeActivity extends Activity {
 
     private SQLiteDatabase db;
+    private DatabaseHelper dbHelper;
     private EditText itemTextInput;
     private Button itemAddButton;
     private ItemAdapter adapter;
+    private String itemText;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
 
-        DatabaseHelper dbHelper = new DatabaseHelper(this);
+        dbHelper = new DatabaseHelper(this);
         db = dbHelper.getWritableDatabase();
 
         RecyclerView itemListView = findViewById(R.id.item_list_view);
@@ -41,13 +43,14 @@ public class HomeActivity extends Activity {
         itemTextInput = findViewById(R.id.item_text_input);
         itemAddButton = findViewById(R.id.item_add_button);
 
-        String itemText = itemTextInput.getText().toString();
+        itemAddButton.setOnClickListener(v -> {
+            itemText = itemTextInput.getText().toString();
+            dbHelper.createItem(itemText);
+            System.out.println("---------- " + itemText);
+            adapter.swapCursor(getAllItems());
 
-        itemAddButton.setOnClickListener(v -> dbHelper.createItem(itemText));
-
-        adapter.swapCursor(getAllItems());
-
-        itemTextInput.getText().clear();
+            itemTextInput.getText().clear();
+        });
     }
 
     public Cursor getAllItems() {
