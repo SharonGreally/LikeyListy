@@ -1,72 +1,72 @@
 <vector xmlns:android="http://schemas.android.com/apk/res/android"
-    android:width="180.4dp"
-    android:height="100.525dp"
-    android:viewportWidth="180.4"
-    android:viewportHeight="100.525">
+  android:width="180.4dp"
+  android:height="100.525dp"
+  android:viewportWidth="180.4"
+  android:viewportHeight="100.525">
 
-    <group android:name="likey">
-        <path
-            android:name="likey-l"
-            android:fillColor="#90DAB9"
-            android:pathData="M30.4,9.79v38.52L54.121,48.31v-9.14L42.478,39.17v-29.38Z" />
-        <path
-            android:name="likey-i"
-            android:fillColor="#90DAB9"
-            android:pathData="M57.93,48.31L70.008,48.31L70.008,17.625L57.93,17.625Z" />
-        <path
-            android:name="likey-k"
-            android:fillColor="#90DAB9"
-            android:pathData="M75.449,48.31L87.527,48.31L87.527,36.069L95.09,48.31L109.508,48.31L97.756,33.076 109.236,17.625L95.2,17.625L87.527,29.103L87.527,8.049L75.449,8.049Z" />
-        <path
-            android:name="likey-e"
-            android:fillColor="#90DAB9"
-            android:pathData="M126.265,26.71c1.8,0 3.428,0.979 3.428,3.1L122.511,29.81A3.455,3.455 0,0 1,126.265 26.711ZM141.281,37.265L128.5,37.265a2.923,2.923 0,0 1,-2.829 1.8c-1.632,0 -3.1,-0.871 -3.264,-3.972h19.369a17.7,17.7 0,0 0,0.163 -2.394c0,-9.63 -6.474,-15.452 -15.669,-15.452S110.6,23.174 110.6,32.968 117.07,48.691 126.265,48.691C133.991,48.691 139.976,43.795 141.281,37.266Z" />
-        <path
-            android:name="likey-y"
-            android:fillColor="#90DAB9"
-            android:pathData="M161.681,33.184 L155.914,17.624L142.478,17.624l12.786,29.162L147.538,63.003h13.221L180.4,17.625L167.07,17.625Z" />
-    </group>
+  <group android:name="likey">
+    <path
+      android:name="likey-l"
+      android:fillColor="#90DAB9"
+      android:pathData="M30.4,9.79v38.52L54.121,48.31v-9.14L42.478,39.17v-29.38Z" />
+    <path
+      android:name="likey-i"
+      android:fillColor="#90DAB9"
+      android:pathData="M57.93,48.31L70.008,48.31L70.008,17.625L57.93,17.625Z" />
+    <path
+      android:name="likey-k"
+      android:fillColor="#90DAB9"
+      android:pathData="M75.449,48.31L87.527,48.31L87.527,36.069L95.09,48.31L109.508,48.31L97.756,33.076 109.236,17.625L95.2,17.625L87.527,29.103L87.527,8.049L75.449,8.049Z" />
+    <path
+      android:name="likey-e"
+      android:fillColor="#90DAB9"
+      android:pathData="M126.265,26.71c1.8,0 3.428,0.979 3.428,3.1L122.511,29.81A3.455,3.455 0,0 1,126.265 26.711ZM141.281,37.265L128.5,37.265a2.923,2.923 0,0 1,-2.829 1.8c-1.632,0 -3.1,-0.871 -3.264,-3.972h19.369a17.7,17.7 0,0 0,0.163 -2.394c0,-9.63 -6.474,-15.452 -15.669,-15.452S110.6,23.174 110.6,32.968 117.07,48.691 126.265,48.691C133.991,48.691 139.976,43.795 141.281,37.266Z" />
+    <path
+      android:name="likey-y"
+      android:fillColor="#90DAB9"
+      android:pathData="M161.681,33.184 L155.914,17.624L142.478,17.624l12.786,29.162L147.538,63.003h13.221L180.4,17.625L167.07,17.625Z" />
+  </group>
 
-    <group android:name="listy">
+  <group android:name="listy">
 
-        <path
-            android:name="listy-l"
-            android:fillColor="#23B574"
-            android:pathData="M0,41.371L0,84.194L26.371,84.194L26.371,74.032L13.427,74.032L13.427,41.371Z" />
-        <path
-            android:name="listy-i"
-            android:fillColor="#23B574"
-            android:pathData="M30.6,84.194L44.032,84.194L44.032,50.081L30.6,50.081Z" />
-        <path
-            android:name="listy-s"
-            android:fillColor="#23B574"
-            android:pathData="M79.778,73.972c0,-13.125 -17.843,-9.194 -17.843,-13.427 0,-1.028 0.786,-1.573 2.117,-1.573 2.177,0 3.508,1.089 3.871,2.9L79.839,61.872C78.871,55.163 74.093,49.657 64.355,49.657c-9.617,0 -14.516,5.081 -14.516,11.25 0,12.52 17.6,8.407 17.6,12.883 0,0.847 -0.847,1.573 -2.238,1.573 -2.056,0 -3.69,-0.907 -3.992,-2.964L48.327,72.399c0.6,6.956 7.077,12.218 16.935,12.218C74.335,84.617 79.778,80.02 79.778,73.972Z" />
-        <path
-            android:name="listy-t"
-            android:fillColor="#23B574"
-            android:pathData="M87.218,70.222c0,10.585 6.048,13.972 14.032,13.972h5.081L106.331,72.763h-3.206c-1.754,0 -2.48,-0.726 -2.48,-2.3L100.645,61.27h5.565L106.21,50.081h-5.565v-8.226L87.218,41.855v8.226L82.984,50.081L82.984,61.27h4.234Z" />
-        <path
-            android:name="listy-y"
-            android:fillColor="#23B574"
-            android:pathData="M129.194,67.379 L122.783,50.079h-14.94l14.214,32.419 -8.589,18.024h14.7L150,50.081L135.181,50.081Z" />
+    <path
+      android:name="listy-l"
+      android:fillColor="#23B574"
+      android:pathData="M0,41.371L0,84.194L26.371,84.194L26.371,74.032L13.427,74.032L13.427,41.371Z" />
+    <path
+      android:name="listy-i"
+      android:fillColor="#23B574"
+      android:pathData="M30.6,84.194L44.032,84.194L44.032,50.081L30.6,50.081Z" />
+    <path
+      android:name="listy-s"
+      android:fillColor="#23B574"
+      android:pathData="M79.778,73.972c0,-13.125 -17.843,-9.194 -17.843,-13.427 0,-1.028 0.786,-1.573 2.117,-1.573 2.177,0 3.508,1.089 3.871,2.9L79.839,61.872C78.871,55.163 74.093,49.657 64.355,49.657c-9.617,0 -14.516,5.081 -14.516,11.25 0,12.52 17.6,8.407 17.6,12.883 0,0.847 -0.847,1.573 -2.238,1.573 -2.056,0 -3.69,-0.907 -3.992,-2.964L48.327,72.399c0.6,6.956 7.077,12.218 16.935,12.218C74.335,84.617 79.778,80.02 79.778,73.972Z" />
+    <path
+      android:name="listy-t"
+      android:fillColor="#23B574"
+      android:pathData="M87.218,70.222c0,10.585 6.048,13.972 14.032,13.972h5.081L106.331,72.763h-3.206c-1.754,0 -2.48,-0.726 -2.48,-2.3L100.645,61.27h5.565L106.21,50.081h-5.565v-8.226L87.218,41.855v8.226L82.984,50.081L82.984,61.27h4.234Z" />
+    <path
+      android:name="listy-y"
+      android:fillColor="#23B574"
+      android:pathData="M129.194,67.379 L122.783,50.079h-14.94l14.214,32.419 -8.589,18.024h14.7L150,50.081L135.181,50.081Z" />
 
 
-    </group>
+  </group>
 
-    <group android:name="checkbox">
-        <path
-            android:pathData="M63.4,1L63.4,1A7,7 0,0 1,70.4 8L70.4,8A7,7 0,0 1,63.4 15L63.4,15A7,7 0,0 1,56.4 8L56.4,8A7,7 0,0 1,63.4 1z"
-            android:strokeWidth="2"
-            android:strokeColor="#23b574" />
-        <path
-            android:pathData="M61.4,8.533L62.733,9.866"
-            android:strokeWidth="2"
-            android:strokeColor="#23b574"
-            android:strokeLineCap="round" />
-        <path
-            android:pathData="M62.733,9.866L65.4,6.133"
-            android:strokeWidth="2"
-            android:strokeColor="#23b574"
-            android:strokeLineCap="round" />
-    </group>
+  <group android:name="checkbox">
+    <path
+      android:pathData="M63.4,1L63.4,1A7,7 0,0 1,70.4 8L70.4,8A7,7 0,0 1,63.4 15L63.4,15A7,7 0,0 1,56.4 8L56.4,8A7,7 0,0 1,63.4 1z"
+      android:strokeWidth="2"
+      android:strokeColor="#23b574" />
+    <path
+      android:pathData="M61.4,8.533L62.733,9.866"
+      android:strokeWidth="2"
+      android:strokeColor="#23b574"
+      android:strokeLineCap="round" />
+    <path
+      android:pathData="M62.733,9.866L65.4,6.133"
+      android:strokeWidth="2"
+      android:strokeColor="#23b574"
+      android:strokeLineCap="round" />
+  </group>
 </vector>
