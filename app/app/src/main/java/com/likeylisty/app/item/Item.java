@@ -1,30 +1,31 @@
 package com.likeylisty.app.item;
 
 public class Item {
-    private String itemText;
-    private int itemId, itemStatus;
 
-    public String getItemText() {
-        return itemText;
-    }
+  private String itemText;
+  private int itemId, itemStatus;
 
-    public void setItemText(String itemText) {
-        this.itemText = itemText;
-    }
+  public String getItemText() {
+    return itemText;
+  }
 
-    public int getItemId() {
-        return itemId;
-    }
+  public void setItemText(String itemText) {
+    this.itemText = itemText;
+  }
 
-    public void setItemId(int itemId) {
-        this.itemId = itemId;
-    }
+  public int getItemId() {
+    return itemId;
+  }
 
-    public int getItemStatus() {
-        return itemStatus;
-    }
+  public void setItemId(int itemId) {
+    this.itemId = itemId;
+  }
 
-    public void setItemStatus(int itemStatus) {
-        this.itemStatus = itemStatus;
-    }
+  public int getItemStatus() {
+    return itemStatus;
+  }
+
+  public void setItemStatus(int itemStatus) {
+    this.itemStatus = itemStatus;
+  }
 }
