@@ -9,5 +9,5 @@ jobs:
     steps:
       - checkout
       - run:
-          working_diectory: ~/app/
+          working_diectory: ~/project/app
           command: ./gradlew build
