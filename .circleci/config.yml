@@ -6,8 +6,9 @@ orbs:
 jobs:
   build:
     executor: android/android
+    working_directory: ~/app
 
     steps:
       - checkout
       - run:
-          command: cd app ./gradlew build
+          command: ./gradlew build
