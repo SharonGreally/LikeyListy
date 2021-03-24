@@ -1,12 +1,15 @@
 package com.likeylisty.app.item;
 
+import android.app.AlertDialog;
 import android.content.Context;
+import android.content.DialogInterface;
 import android.database.Cursor;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.CheckBox;
 import android.widget.CompoundButton;
+import android.widget.EditText;
 import android.widget.ImageButton;
 import androidx.annotation.NonNull;
 import androidx.appcompat.widget.PopupMenu;
@@ -73,6 +76,8 @@ public class ItemAdapter extends RecyclerView.Adapter<ItemAdapter.ItemViewHolder
       }
     });
 
+
+
     holder.itemMenu.setOnClickListener(v -> {
       PopupMenu popup = new PopupMenu(context, v);
       popup.inflate(R.menu.pop_menu);
@@ -80,7 +85,35 @@ public class ItemAdapter extends RecyclerView.Adapter<ItemAdapter.ItemViewHolder
       popup.setOnMenuItemClickListener(item -> {
         switch (item.getItemId()) {
           case R.id.edit_item:
-            // do your code
+
+            AlertDialog.Builder builder = new AlertDialog.Builder(context);
+            builder.setTitle("Enter New Note:");
+            builder.setMessage("Old note: " + itemText);
+
+            final EditText input = new EditText(context);
+            builder.setView(input);
+
+            builder.setPositiveButton("OK", new DialogInterface.OnClickListener() {
+              @Override
+              public void onClick(DialogInterface dialog, int which) {
+                String itemText = "";
+                itemText = input.getText().toString();
+
+                DatabaseHelper dbHelper = new DatabaseHelper(context);
+                dbHelper.updateItem(itemId, itemText);
+                refreshAdap.refreshAdapter();
+
+              }
+            });
+            builder.setNegativeButton("Cancel", new DialogInterface.OnClickListener() {
+              @Override
+              public void onClick(DialogInterface dialog, int which) {
+                dialog.cancel();
+              }
+            });
+            builder.show();
+
+
             return true;
           case R.id.delete_item:
             DatabaseHelper dbHelper = new DatabaseHelper(context);
