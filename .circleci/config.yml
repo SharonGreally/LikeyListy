@@ -9,5 +9,5 @@ jobs:
     steps:
       - checkout
       - run:
-          working_directory: ~/app/app
+          working_directory: ~/app
           command: ./gradlew build
