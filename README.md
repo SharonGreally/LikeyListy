@@ -19,7 +19,7 @@
 
 <a name="Intro"></a>
 ## Introduction
-Welcome to LikeyListy, our beginner-friendly, open source project for the development of an android list application.
+Welcome to LikeyListy, our beginner-friendly, open source project for the development of an android list application, using Java.
 
 <a name="contribute"></a>
 ## How to contribute
@@ -39,7 +39,8 @@ Remember it's not all about the code! There are lots of other ways you can contr
 
 <a name="status"></a>
 ## Project Status
-We have just started our open source project and will shortly start developing the app.  The initial features to be developed will be create, read, update and delete a list.
+We recently started our open source project and have developed the functionality to create, edit and delete a list item. We are open to contributions to our project,
+particularly from those of you who are new to open source. 
 
 
 <a name="contribute"></a>
