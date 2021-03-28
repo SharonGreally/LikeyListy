@@ -21,7 +21,7 @@ For help with writing your issue refer to the LikeyListy [Issue Template](ISSUE_
 - IDE: Android Studio 
 - Code Style: [Google Java Style](https://google.github.io/styleguide/javaguide.html)
   In the latest Android Studio (as of this edit, 4.1.2) you can go to:
-  File -> Settings -> Code Style -> Java -> Scheme -> Settings Icon (Gear) -> Import Scheme...   and import the file GoogleStyle.xml there.
+  File -> Settings -> Editor -> Code Style -> Java -> Scheme -> Settings Icon (Gear) -> Import Scheme...   and import the file GoogleStyle.xml there.
 
 ### Project Setup
 1. [Fork](https://help.github.com/articles/fork-a-repo) the repository.
