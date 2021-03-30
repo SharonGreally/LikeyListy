@@ -1,12 +1,14 @@
 package com.likeylisty.app;
 
+import android.annotation.SuppressLint;
 import android.app.Activity;
-import android.content.ContentValues;
+import android.content.Intent;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.os.Bundle;
-import android.provider.ContactsContract;
-import android.view.View;
+import android.view.Menu;
+import android.view.MenuInflater;
+import android.view.MenuItem;
 import android.widget.Button;
 import android.widget.EditText;
 
@@ -30,6 +32,7 @@ public class HomeActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
 
+
         DatabaseHelper dbHelper = new DatabaseHelper(this);
         db = dbHelper.getWritableDatabase();
 
@@ -50,6 +53,36 @@ public class HomeActivity extends Activity {
         itemTextInput.getText().clear();
     }
 
+    @SuppressLint("ResourceType")
+
+    public boolean onCreateOptionsMenu(Menu menu) {
+        MenuInflater inflater = getMenuInflater();
+        inflater.inflate(R.menu.toolbar_menu, menu);
+        return true;
+
+
+    }
+
+    @SuppressLint("NonConstantResourceId")
+    @Override
+    public boolean onOptionsItemSelected(MenuItem selection) {
+        switch (selection.getItemId()) {
+            case R.id.settings_item:
+               Intent settingsIntent = new Intent(getApplicationContext(), SettingsActivity.class);
+               startActivity(settingsIntent);
+
+            case R.id.edit_item:
+                return true;
+            case R.id.delete_item:
+                return true;
+        }
+        return super.onOptionsItemSelected(selection);
+    }
+
+    private SQLiteDatabase getSupportFragmentManager() {
+        return null;
+    }
+
     public Cursor getAllItems() {
         return db.query(
                 DatabaseDetails.Item.TABLE_NAME,
@@ -61,4 +94,8 @@ public class HomeActivity extends Activity {
                 DatabaseDetails.Item.COLUMN_ITEM_TIMESTAMP + " DESC"
         );
     }
+
+
+
 }
+

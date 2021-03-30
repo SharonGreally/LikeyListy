@@ -30,4 +30,13 @@
     <style name="Theme.LikeyListy.Item.Checked" parent="Theme.LikeyListy">
         <item name="strokeColor">#885543</item>
     </style>
+
+    <style name="Theme.LikeyListy.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.LikeyListy.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.LikeyListy.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 </resources>
