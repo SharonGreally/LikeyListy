@@ -34,7 +34,7 @@ For help with writing your issue refer to the LikeyListy [Issue Template](ISSUE_
 1. [Fork](https://help.github.com/articles/fork-a-repo) the repository.
 2. [Clone](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository#about-cloning-a-repository) it to your local machine.
 3. Always base your contribution on the current main branch and write code on a branch in your fork.
-4. Open the `src/` directory in in Android Studio.
+4. Open the `<yourfork>/src/` directory in Android Studio.
 5. Import the file GoogleStyle.xml into Android Studio.
 6. You are now ready to contribute by modifying the code.
 
