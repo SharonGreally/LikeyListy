@@ -53,6 +53,6 @@ For help with writing your issue refer to the LikeyListy [Issue Template](ISSUE_
 ## Keeping your repository fork up-to-date
 1. Download Git
 2. Clone your fork | git clone https://github.com/(Yourgithubname)/LikeyListy.git 
-3. Add the Upstream URL (I would recommend entering a directory before entering the command) | git remote add upstream https://github.com/SharonGreally/LikeyListy.git
+3. Add the Upstream URL | git remote add upstream https://github.com/SharonGreally/LikeyListy.git
 4. Fetch the data | git fetch upstream
 5. Updating the repo | git pull upstream master
