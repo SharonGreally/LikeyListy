@@ -49,3 +49,10 @@ For help with writing your issue refer to the LikeyListy [Issue Template](ISSUE_
 1. Before submitting a pull request make sure all tests have passed.
 2. Only change one specific thing per pull request. Pull Requests with with multiple unrelated issues will not be accepted. Exceptions with documentation, spelling errors, etc.
 3. Refer to the LikeyListy [Pull Request Template](PULL_REQUEST_TEMPLATE.md) before making a pull request.
+
+## Keeping your repository fork up-to-date
+1. Download Git
+2. Clone your fork | git clone https://github.com/(Yourgithubname)/LikeyListy.git 
+3. Add the Upstream URL (I would recommend entering a directory before entering the command) | git remote add upstream https://github.com/SharonGreally/LikeyListy.git
+4. Fetch the data | git fetch upstream
+5. Updating the repo | git pull upstream master
