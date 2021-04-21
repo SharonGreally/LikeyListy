@@ -12,6 +12,7 @@
 - [Other ways to contribute](#other-ways-to-contribute)
 - [Project Status](#project-status)
 - [License](#license)
+- [What it looks like](#what-it-looks-like)
 
 ---
 
@@ -34,3 +35,9 @@ We recently started our open source project and have developed the functionality
 ## License
 
 Our open source project is licensed under [MIT](https://github.com/SharonGreally/LikeyListy/blob/main/LICENSE.md).
+
+## What the app looks like
+
+Here is what our app looks like.
+![finsihed](https://user-images.githubusercontent.com/48395721/114854156-6e126f80-9ddc-11eb-89c6-c115232396cb.PNG)
+
