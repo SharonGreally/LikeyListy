@@ -47,7 +47,7 @@ For help with writing your issue refer to the LikeyListy [Issue Template](ISSUE_
 ## Pull Request
 
 1. Before submitting a pull request make sure all tests have passed.
-2. Only change one specific thing per pull request. Pull Requests with with multiple unrelated issues will not be accepted. Exceptions with documentation, spelling errors, etc.
+2. Only change one specific thing per pull request. Pull Requests with multiple unrelated issues will not be accepted. Exceptions with documentation, spelling errors, etc.
 3. Refer to the LikeyListy [Pull Request Template](PULL_REQUEST_TEMPLATE.md) before making a pull request.
 
 ## Keeping your repository fork up-to-date
