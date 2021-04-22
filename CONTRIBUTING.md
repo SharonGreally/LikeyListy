@@ -10,7 +10,7 @@ We're so excited you're interested in helping with LikeyListy! We are happy to h
 ## Where to ask Questions?
 
 1. Check our [Github Issues](https://github.com/sharongreally/LikeyListy/issues) to see if someone has already answered your question. 
-2. Refer to the LikeyListy [Issue Template](ISSUE_TEMPLATE.md) to submit a new issue. 
+2. Refer to the LikeyListy [Issue Template](issue_template.md) to submit a new issue. 
 
 ## Issues and Bugs
 
@@ -18,7 +18,7 @@ If you find a bug in the source code or a mistake in the documentation, you can 
 
 Even better: propose a fix with a pull request and link it to the issue!
 
-For help with writing your issue refer to the LikeyListy [Issue Template](ISSUE_TEMPLATE.md)
+For help with writing your issue refer to the LikeyListy [Issue Template](issue_template.md)
 
 ## Development Setup  
 
@@ -48,7 +48,7 @@ For help with writing your issue refer to the LikeyListy [Issue Template](ISSUE_
 
 1. Before submitting a pull request make sure all tests have passed.
 2. Only change one specific thing per pull request. Pull Requests with multiple unrelated issues will not be accepted. Exceptions with documentation, spelling errors, etc.
-3. Refer to the LikeyListy [Pull Request Template](PULL_REQUEST_TEMPLATE.md) before making a pull request.
+3. Refer to the LikeyListy [Pull Request Template](pull_request_template.md) before making a pull request.
 
 ## Keeping your repository fork up-to-date
 1. Download Git
