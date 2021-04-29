@@ -1,12 +1,19 @@
 package com.likeylisty.app;
 
+import android.annotation.SuppressLint;
 import android.app.Activity;
+import android.content.Intent;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuInflater;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.Toolbar;
+
 import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
@@ -22,6 +29,8 @@ public class HomeActivity extends Activity implements refreshAdapter {
   private Button itemAddButton, displayButton;
   private ItemAdapter adapter;
   private String itemText;
+
+
 
   @Override
   protected void onCreate(Bundle savedInstanceState) {
@@ -64,7 +73,34 @@ public class HomeActivity extends Activity implements refreshAdapter {
       itemTextInput.getText().clear();
     });
 
+
   }
+
+  @SuppressLint("ResourceType")
+
+  public boolean onCreateOptionsMenu(Menu menu) {
+    MenuInflater inflater = getMenuInflater();
+    inflater.inflate(R.menu.toolbar_menu, menu);
+    return true;
+
+
+  }
+
+  @SuppressLint("NonConstantResourceId")
+  @Override
+  public boolean onOptionsItemSelected(MenuItem selection) {
+    switch (selection.getItemId()) {
+      case R.id.access_settings:
+        Intent settingsIntent = new Intent(getApplicationContext(), SettingsActivity.class);
+        startActivity(settingsIntent);
+
+      case R.id.create_new_list:
+        return true;
+
+    }
+    return super.onOptionsItemSelected(selection);
+  }
+
 
   public Cursor getAllItems() {
     return db.query(
