@@ -29,6 +29,7 @@ public class HomeActivity extends Activity implements refreshAdapter {
   private Button itemAddButton, displayButton;
   private ItemAdapter adapter;
   private String itemText;
+  private Toolbar appActionBar;
 
 
 
@@ -67,23 +68,20 @@ public class HomeActivity extends Activity implements refreshAdapter {
     itemAddButton.setOnClickListener(v -> {
       itemText = itemTextInput.getText().toString();
       dbHelper.createItem(itemText);
-      System.out.println("---------- " + itemText);
       refreshAdapter();
 
       itemTextInput.getText().clear();
     });
 
-
+    appActionBar = findViewById(R.id.appActionBar);
+    setActionBar(appActionBar);
   }
 
   @SuppressLint("ResourceType")
-
   public boolean onCreateOptionsMenu(Menu menu) {
     MenuInflater inflater = getMenuInflater();
     inflater.inflate(R.menu.toolbar_menu, menu);
     return true;
-
-
   }
 
   @SuppressLint("NonConstantResourceId")
@@ -94,8 +92,8 @@ public class HomeActivity extends Activity implements refreshAdapter {
         Intent settingsIntent = new Intent(getApplicationContext(), SettingsActivity.class);
         startActivity(settingsIntent);
 
-      case R.id.create_new_list:
-        return true;
+//      case R.id.create_new_list:
+//        return true;
 
     }
     return super.onOptionsItemSelected(selection);

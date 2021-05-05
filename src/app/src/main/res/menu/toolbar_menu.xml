@@ -4,8 +4,8 @@
     <item
         android:id="@+id/access_settings"
         android:title="Settings" />
-    <item
-        android:id="@+id/create_new_list"
-        android:title="Create New list" />
+<!--    <item-->
+<!--        android:id="@+id/create_new_list"-->
+<!--        android:title="Create New list" />-->
 </menu>
 
